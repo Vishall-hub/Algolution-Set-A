@@ -1,0 +1,36 @@
+//count of Negative Numbers in Array
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter size of Array :";
+    cin>>n;
+    
+    int a[n];
+    
+    cout<<"Enter elements in array :" ;
+    for(int i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    
+   
+   // Check Array is Palindrome or Not
+   int item;
+   cout<<"Enter the Element for finding ";
+   cin>>item;
+   
+   for(int i=0;i<n;i++)
+   {
+       if(a[i]==item) 
+       {
+           cout<<"First Occurance index is : "<<i;
+           break;
+       }
+   }
+ 
+    return 0;
+}

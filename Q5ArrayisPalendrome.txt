@@ -1,0 +1,33 @@
+//Array is Pallendrome or Not
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter size of Array :";
+    cin>>n;
+    
+    int a[n];
+    
+    cout<<"Enter elements in array :" ;
+    for(int i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    
+   
+   // Check Array is Palindrome or Not
+   int start=0,end=n-1;bool flag=true;
+   while(start<end)
+   {
+       if(a[start] == a[end]) start++,end--;
+       else { flag= false; cout<<"Array is Not Palindrome"; break  ;}
+   }
+   
+  if(flag)
+  cout<<"Array is Palindrome";
+    
+    return 0;
+}
