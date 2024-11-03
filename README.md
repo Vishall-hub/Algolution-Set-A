@@ -19,85 +19,69 @@ If the input number is not present in the array then print -1
 10.	 write a function in C to print following pattern
 Note: Number of rows and columns shall be the input parameters to the function
 Parallelogram
-----*****
----*****
---*****
--*****
-*****
+----*****  \n
+---*****  \n
+--*****  \n
+-*****   \n
+*****   
 
 11.	write a function in C to print following pattern
-
 Note: Only number of rows shall be the input parameter to the function
-
 Right triangle
 
-*
-**
-***
-****
+*----  \n
+**---  \n
+***--  \n
+****-  \n
 *****
-
 
 12.	write a function in C to print following pattern
-
 Note: Only number of columns will be the input parameter to the function
-
 Half diamond
-
-*
-**
-***
-****
-*****
-****
-***
-**
-*
-
-
+*----  \n
+**---  \n
+***--  \n
+****-  \n
+*****  \n
+****-  \n
+***--  \n
+**---  \n
+*----  
 13.	write a function in C to print following pattern
-
 Note: Only odd number of rows will be the input parameter to the function. If the number of rows is even then print an error and return false else return true.
-
 Diamond
+----*----  \n 
+---***---  \n
+--*****--  \n
+-*******-  \n
+*********  \n
+-*******-  \n
+--*****--  \n
+---***---  \n
+----*----
 
-    *
-   ***
-  *****
- *******
-*********
- *******
-  *****
-   ***
-    *
 14.	write a function in C to print following pattern 
-
 Note: Number of rows and columns shall be the input parameters to the function
-
-12345
-54321
-12345
-54321
+12345  \n
+54321  \n
+12345  \n
+54321  \n
 12345
 
 15.	write a function in C to print following pattern 
-
 Note: Number of rows and columns shall be the input parameters to the function
 
-11111
-10001
-10001
-10001
+11111  \n
+10001  \n
+10001  \n
+10001  \n
 11111
 
 16.	write a function in C to print following pattern 
-
 Note: number of rows shall be the input parameter to the function.
 
-12345
-23455
-34555
-45555
+12345  \n
+23455  \n
+34555  \n
+45555  \n
 55555
-
-
