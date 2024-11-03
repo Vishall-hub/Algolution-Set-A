@@ -17,11 +17,8 @@ If the input number is not present in the array then print -1
 8.	Write a program to count frequency of each number in an array.
 9.	Write a program to count total number of duplicate numbers in an array.
 10.	 write a function in C to print following pattern
-
 Note: Number of rows and columns shall be the input parameters to the function
-
-Parallelogram 
-
+Parallelogram
     *****
    *****
   *****
