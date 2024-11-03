@@ -19,10 +19,10 @@ If the input number is not present in the array then print -1
 10.	 write a function in C to print following pattern
 Note: Number of rows and columns shall be the input parameters to the function
 Parallelogram
-    *****
-   *****
-  *****
- *****
+----*****
+---*****
+--*****
+-*****
 *****
 
 11.	write a function in C to print following pattern
